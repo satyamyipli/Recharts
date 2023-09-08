@@ -1,10 +1,12 @@
 .App {
   text-align: center;
 }
-
+.axis-labels{
+  pointer-events: none !important;
+}
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: none !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
