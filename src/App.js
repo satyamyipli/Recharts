@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import ZoomableGraph from './component/First';
-import ZoomableGraph4 from './component/Fourth';
+import { DemonstrationWithPatternSeries } from './component/Demonstration';
+import Demonstration2 from './component/Previous';
+
 const App = () =>{
   return(
     <div>
-      {/* <ZoomableGraph /> */}
-      <ZoomableGraph4 />
+      <DemonstrationWithPatternSeries/>
+      {/* <Demonstration2/> */}
     </div>
   )
 }
